@@ -1,0 +1,62 @@
+{
+  "os":  "Linux-6.6.56+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2025-02-27T17:09:37.899776Z",
+  "args":  [
+    "--img",
+    "416",
+    "--batch",
+    "16",
+    "--epochs",
+    "50",
+    "--data",
+    "data.yaml",
+    "--weights",
+    "yolov7-tiny.pt",
+    "--device",
+    "0",
+    "--cfg",
+    "cfg/training/yolov7-tiny.yaml",
+    "--hyp",
+    "data/hyp.scratch.tiny.yaml",
+    "--name",
+    "yolov7_tiny_rsna"
+  ],
+  "program":  "/kaggle/working/yolov7/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/WongKinYiu/yolov7.git",
+    "commit":  "a207844b1ce82d204ab36d87d496728d3d2348e7"
+  },
+  "email":  "dhanushs.btech23@rvu.edu.in",
+  "root":  "/kaggle/working/yolov7",
+  "host":  "07f8fb445319",
+  "executable":  "/usr/bin/python3",
+  "codePathLocal":  "train.py",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla P100-PCIE-16GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "8656922775552",
+      "used":  "6625164550144"
+    }
+  },
+  "memory":  {
+    "total":  "33662353408"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla P100-PCIE-16GB",
+      "memoryTotal":  "17179869184",
+      "cudaCores":  3584,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

@@ -1,0 +1,5 @@
+train: /kaggle/working/yolo_dataset_full/train/images
+val: /kaggle/working/yolo_dataset_full/val/images
+test: /kaggle/working/yolo_dataset_full/test/images
+nc: 1
+names: ['Lung Opacity']

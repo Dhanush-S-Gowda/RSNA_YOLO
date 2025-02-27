@@ -1,0 +1,10 @@
+{"time":"2025-02-27T17:09:37.90161517Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-02-27T17:09:37.901643192Z","level":"INFO","msg":"created symlink","path":"/kaggle/working/yolov7/wandb/run-20250227_170937-hetfr2gt/logs/debug-core.log"}
+{"time":"2025-02-27T17:09:38.005885195Z","level":"INFO","msg":"created new stream","id":"hetfr2gt"}
+{"time":"2025-02-27T17:09:38.005934554Z","level":"INFO","msg":"stream: started","id":"hetfr2gt"}
+{"time":"2025-02-27T17:09:38.005972404Z","level":"INFO","msg":"writer: Do: started","stream_id":"hetfr2gt"}
+{"time":"2025-02-27T17:09:38.005974625Z","level":"INFO","msg":"sender: started","stream_id":"hetfr2gt"}
+{"time":"2025-02-27T17:09:38.006040369Z","level":"INFO","msg":"handler: started","stream_id":"hetfr2gt"}
+{"time":"2025-02-27T17:09:38.3650629Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-27T17:09:48.366616014Z","level":"ERROR","msg":"monitor: memory: error sampling metrics: open /proc/80/statm: no such file or directory"}
+{"time":"2025-02-27T17:09:48.366616017Z","level":"ERROR","msg":"monitor: cpu: error sampling metrics: open /proc/80/stat: no such file or directory\nopen /proc/80/status: no such file or directory"}
